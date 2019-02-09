@@ -31,7 +31,7 @@ def pmdas(inString):
 if len(sys.argv) > 1:
 	strIn = sys.argv[1]
 	print("\nIn[1]:  " + strIn)
-	# First, handle values within parenthesis
+	# First, handle values within parens
 	while (strIn.find("(") > -1):
 		intParenStart = 0
 		for intCurrent in range(0,strIn.find(")")+1):
