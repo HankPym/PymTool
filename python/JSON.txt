@@ -1,0 +1,11 @@
+{
+    "maps":
+    [
+        {"id":"Map0","iscategorical":"0"},
+        {"id":"Map1","iscategorical":"1"}
+    ],
+    "masks": 
+        {"id":"Mask1"}, 
+    "om_points":"Mask1points", 
+    "parameters":{"id":"mask1params"}
+}

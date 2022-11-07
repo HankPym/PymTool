@@ -1,0 +1,30 @@
+print("\n")
+inGperML = float(input("Enter the the density (g/mL): "))
+
+outGperML = str(inGperML)
+outGperL = str(inGperML * 1000)
+outKGperL = str(inGperML)
+outMGperML = str(inGperML * 1000)
+outMGperL = str(inGperML * 1000000)
+
+print("\n")
+print(outMGperML + " mg/mL")
+print(outMGperL + " mg/L")
+print(outGperML + " g/mL")
+print(outGperL + " g/L")
+print(outKGperL + " kg/L")
+
+print("\n")
+print("MG = [ML] * " + outMGperML)
+print("MG = [L]  * " + outMGperL)
+print("G  = [ML] * " + outGperML)
+print("G  = [L]  * " + outGperL)
+print("KG = [L]  * " + outKGperL)
+
+
+print("\n")
+print("ML = [MG] / " + outMGperML)
+print("ML = [G]  / " + outGperML)
+print("L  = [MG] / " + outMGperL)
+print("L  = [G]  / " + outGperL)
+print("L  = [KG] / " + outKGperL)

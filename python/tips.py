@@ -7,4 +7,3 @@ sns.relplot(x="total_bill", y="tip", col="time",
     data=tips);
 # Show plot
 plt.show()
-print(tips)
